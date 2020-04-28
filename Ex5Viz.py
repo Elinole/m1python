@@ -7,3 +7,6 @@ df.describe()
 
 sns.lmplot(x='Attrition', y='DistanceFromHome', data=df)
 plt.show()
+
+sns.lmplot(x='Attrition', y='YearsWithCurrManager', data=df)
+plt.show()
