@@ -2,7 +2,7 @@ import pandas as pd
 from matplotlib import pyplot as plt
 import seaborn as sns
 
-df = pd.read_csv('sales_predictions.csv', index_col=0)
+df = pd.read_csv('DataVisualisation/sales_predictions.csv', index_col=0)
 df.describe()
 
 pd.to_datetime('date_block_num', unit='s')
