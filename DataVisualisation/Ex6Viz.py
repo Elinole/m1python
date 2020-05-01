@@ -3,7 +3,7 @@ from matplotlib import pyplot as plt
 import seaborn as sns
 
 df = pd.read_csv('DataVisualisation/house_pricing.csv', index_col=0)
-df.describe()
+print(df.describe())
 
 df = df[df.columns[-15:]]
 sns.heatmap(df.corr()) # corr() = corrélation
